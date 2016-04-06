@@ -1,0 +1,121 @@
+.net_object{
+    position: relative;
+}
+.cellCont,.net_settings,.firstCellCont{
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #000000;
+    position: relative;
+}
+.selected,.firstCellCont.tmp_selected,.header_row .cellCont.tmp_selected{
+    cursor: pointer;
+    background-color: #0099ff !important;
+    color: #ffffff;
+}
+.selecting_start{
+    background: #80CFFF !important;
+}
+.firstCellCont:hover,.header_row .cellCont,.net_settings:hover,.rowCont .cellCont:hover{
+    cursor: pointer;
+}
+.firstCellCont span,.header_row .cellCont span{
+    vertical-align: -webkit-baseline-middle;
+}
+.net_container,.cell_view_info_cont{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.net_container.disabled{
+    opacity: 0.5;
+}
+.net_settings{
+    position: relative;
+    background: transparent url(../../img/setting.png) no-repeat 50% 50%/100%;
+}
+.net_settings.active{
+    background: #0099ff url(../../img/setting_active.png) no-repeat 50% 50%/100%;
+}
+.net_settings_cont{
+    max-width: 200px;
+    display:none;
+    position: absolute;
+    z-index: 1000;
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+}
+.net_settings_cont > h2,.cell_edit_info_cont > h2{
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+.net_settings_cont > div,.cell_edit_info_cont > div{
+    text-align: center;
+}
+.net_settings_cont input,.net_settings_cont label,.cell_edit_info_cont input,.cell_edit_info_cont label{
+    width: 100%;
+    text-align: left;
+}
+.net_settings_cont input,.cell_edit_info_cont input{
+    white-space: nowrap;
+}
+.invalid{
+    border: 2px solid #CC0000;
+}
+.change_info{
+    display: none;
+    margin: 10px 0 0 0;
+}
+.cell_view_info_cont,.cell_edit_info_cont{
+    display:none;
+    background: #fff;
+    padding: 20px;
+    -webkit-box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 5px 3px rgba(0,0,0,0.75);
+    position:absolute;
+    z-index: 2;
+}
+.cell_view_info_cont{
+    z-index: 1;
+}
+.tmp_edited,.edited{
+    background-image: url(../../img/edited.png) !important;
+    background-position: 50% 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.edited.selected{
+    background-image: url(../../img/edited_active.png) !important;
+}
+.tmp_edited{
+    background-color: #e38d13 !important;
+}
+.firstCellCont.tmp_edited,.header_row .cellCont.tmp_edited{
+    background-color: #e38d13 !important;
+}
+.firstCellCont.tmp_edited,.header_row .cellCont.tmp_edited,.firstCellCont.edited,.header_row .cellCont.edited {
+    background: url(../../img/edited.png) 15% 15%/30% no-repeat !important;
+}
+.firstCellCont.edited.tmp_selected,.header_row .cellCont.edited.tmp_selected{
+    background: #0099ff url(../../img/edited_active.png) 15% 15%/30% no-repeat !important;
+}
+.cell_info{
+    display:none;
+}
+.button.disabled {
+    background: none !important;
+}
+.scrollablex{
+    position: relative;
+    z-index: 1;
+}
+.scrollablex.header_row{
+    z-index: 2;
+}

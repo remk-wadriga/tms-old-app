@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'PFDL';
+    src: url('../fonts/PFDinTextCondPro-Light.ttf');
+}
+@font-face {
+    font-family: 'PFDR';
+    src: url('../fonts/PFDinTextCondPro-Regular.ttf');
+}
+@font-face {
+    font-family: 'PFDM';
+    src: url('../fonts/PFDinTextCondPro-Medium.ttf');
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table td, table th {
+    padding: 0;
+}
+.mail {
+    background: #fff;
+}
+.mail .content {
+    width: 540px;
+    padding: 20px;
+    font-family: 'PFDL', sans-serif;
+    font-size: 12pt;
+    color: #757679;
+    line-height: 1;
+}
+.mail .content p {
+    margin-bottom: 3px;
+}
+.mail .content .logo {
+    margin-bottom: 30px;
+    width: 374px;
+}
+.mail .content .s {
+    margin: 0 15px;
+    color: #757679;
+}
+.mail .content .mt20 { margin-top: 20px; }
+.mail .content .mt30 { margin-top: 30px; }
+.mail .content .mb5 { margin-bottom: 5px; }
+.mail .content .mb10 { margin-bottom: 10px; }
+.mail .content .mb20 { margin-bottom: 20px; }
+.mail .content .mb30 { margin-bottom: 30px; }
+.mail .content .t1 {
+    font-family: 'PFDR', sans-serif;
+}
+.mail .content .t2 {
+    font-size: 16pt;
+    text-transform: uppercase;
+    color: #231f20;
+}
+.mail .content .t2 span {
+    font-family: 'PFDM', sans-serif;
+}
+.mail .content .t4 {
+    font-size: 18pt;
+    color: #231f20;
+}
+.mail .content .t5 span.s1 {
+    font-family: 'PFDM', sans-serif;
+}
+.mail .content .t6 {
+    color: #231f20;
+}
+.mail .content .t6 p {
+    margin-bottom: 5px;
+}
+.mail .content .t6 span {
+    font-family: 'PFDM', sans-serif;
+}
+.mail .content .t7 {
+    font-size: 16pt;
+    color: #231f20;
+}
+.mail .content .t8 {
+    color: #231f20;
+}

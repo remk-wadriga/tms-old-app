@@ -1,0 +1,203 @@
+@media print {
+	@page {
+		size: 70mm 152mm;
+		margin: 0;
+	}
+}
+
+.ticket_layout {
+	page-break-after: always;
+	width: 70mm;
+	height: 136mm;
+	margin: 8mm 0;
+	font-family: Tahoma, sans-serif;
+	line-height: 1;
+	position: relative;
+	overflow:hidden;
+	background: #fff;
+}
+
+.ticket_layout .block_1 {
+	position: absolute;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 218px;
+	left: -80px;
+	width: 143mm;
+	text-align: center;
+}
+.ticket_layout .block_1 .sub_1 {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.ticket_layout .block_1 .sub_2 {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.ticket_layout .block_1 .sub_3 {
+	font-size: 20px;
+}
+
+.ticket_layout .block_2 {
+	position: absolute;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 325px;
+	left: -185px;
+	width: 143mm;
+	font-size: 12px;
+}
+.ticket_layout .block_2 .sub_1 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_2 .sub_1 span {
+	font-weight: bold;
+	margin-left: 28px;
+}
+.ticket_layout .block_2 .sub_2 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_2 .sub_2 span {
+	font-weight: bold;
+	margin-left: 23px;
+}
+.ticket_layout .block_2 .sub_3 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_2 .sub_3 span {
+	font-weight: bold;
+	margin-left: 10px;
+}
+.ticket_layout .block_2 .sub_4 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_2 .sub_4 span {
+	font-weight: bold;
+	margin-left: 31px;
+}
+
+.ticket_layout .block_3 {
+	position: absolute;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 550px;
+	left: -179px;
+	width: 143mm;
+	font-size: 12px;
+}
+.ticket_layout .block_3 .sub_1 {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.ticket_layout .block_3 .sub_2 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_3 .sub_2 span {
+	font-weight: bold;
+	margin-left: 20px;
+}
+.ticket_layout .block_3 .sub_3 {
+	margin-bottom: 5px;
+}
+.ticket_layout .block_3 .sub_3 span {
+	font-weight: bold;
+	margin-left: 8px;
+}
+
+.ticket_layout .block_4 {
+	position: absolute;
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	top: 120px;
+	left: -237px;
+	width: 143mm;
+	font-size: 10px;
+	text-align: right;
+}
+.ticket_layout .block_4 .sub_1 {
+	margin-bottom: 1mm;
+}
+.ticket_layout .block_4 .sub_2 img {
+	width: 50mm;
+	height: 8mm;
+	margin-bottom: 1mm;
+}
+.ticket_layout .block_4 .sub_2 object {
+	width: 180px;
+	height: 25px;
+	margin-left: 375px;
+}
+.ticket_layout .block_4 .sub_4 {
+	font-size: 8px;
+}
+
+.ticket_layout .block_5 {
+	position: absolute;
+	width: 66mm;
+	font-size: 7px;
+	font-weight: bold;
+}
+.ticket_layout .block_5 .sub_1 {
+	margin-left: 20px;
+}
+.ticket_layout .block_5 .sub_1 img {
+	width: 100%;
+	height: 5mm;
+	margin-bottom: 1mm;
+}
+.ticket_layout .block_5 .sub_1 object {
+	width: 200px;
+	height: 15px;
+}
+.ticket_layout .block_5 .sub_2 {
+	margin-left: 20px;
+}
+.ticket_layout .block_5 .sub_3 {
+	margin-left: 20px;
+}
+.ticket_layout .block_5 .sub_4 {
+	margin-left: 20px;
+}
+
+.ticket_layout .block_6 {
+	position: absolute;
+	bottom: 0;
+	width: 66mm;
+	text-align: right;
+	font-size: 7px;
+	font-weight: bold;
+}
+.ticket_layout .block_6 .sub_1 {
+	margin-left: 20px;
+}
+.ticket_layout .block_6 .sub_2 {
+	margin-left: 20px;
+}
+.ticket_layout .block_6 .sub_3 {
+	margin-left: 20px;
+}
+.ticket_layout .block_6 .sub_4 {
+	margin-left: 20px;
+}
+.ticket_layout .block_6 .sub_4 img {
+	width: 100%;
+	height: 5mm;
+	margin-top: 1mm;
+}
+.ticket_layout .block_6 .sub_4 object {
+	margin-top: 2px;
+	width: 200px;
+	height: 15px;
+}
