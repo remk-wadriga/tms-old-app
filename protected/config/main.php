@@ -111,7 +111,7 @@ return array(
             ),
         ),
         'db'=>array(
-            'connectionString' => 'mysql:host=localhost;dbname=tms_db',
+            'connectionString' => 'mysql:host=127.0.0.1;dbname=tms_db',
             'emulatePrepare' => true,
             'username' => 'tms_u',
             'password' => 'OlktHuifUyt4R',
