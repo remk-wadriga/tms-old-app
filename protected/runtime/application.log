@@ -2241,3 +2241,21 @@ Stack trace:
 REQUEST_URI=/index.php/statistics/statistics/basic?event_id=74
 HTTP_REFERER=http://tms-dev.local/index.php/order/quote/allQuotes?event_id=74
 ---
+2016/04/11 13:20:55 [error] [exception.CException] exception 'CException' with message 'Шлях CAssetManager.basePath "D:\OpenServer\domains\old-tms.local\assets" задано невірно. Переконайтесь, що директорія існує та доступна для запису користувачеві, під яким працює веб-сервер.' in D:\OpenServer\domains\old-tms.local\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\OpenServer\\d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\OpenServer\domains\old-tms.local\protected\extensions\bootstrap\components\Booster.php(315): CAssetManager->publish('D:\\OpenServer\\d...', false, -1, false)
+#3 D:\OpenServer\domains\old-tms.local\protected\extensions\bootstrap\components\packages.php(14): Booster->getAssetsUrl()
+#4 D:\OpenServer\domains\old-tms.local\protected\extensions\bootstrap\components\Booster.php(280): require('D:\\OpenServer\\d...')
+#5 D:\OpenServer\domains\old-tms.local\protected\extensions\bootstrap\components\Booster.php(266): Booster->appendUserSuppliedPackagesToOurs()
+#6 D:\OpenServer\domains\old-tms.local\protected\extensions\bootstrap\components\Booster.php(216): Booster->includeAssets()
+#7 D:\OpenServer\domains\old-tms.local\framework\base\CModule.php(394): Booster->init()
+#8 D:\OpenServer\domains\old-tms.local\framework\base\CModule.php(530): CModule->getComponent('booster')
+#9 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(168): CModule->preloadComponents()
+#10 D:\OpenServer\domains\old-tms.local\framework\YiiBase.php(125): CApplication->__construct('D:\\OpenServer\\d...')
+#11 D:\OpenServer\domains\old-tms.local\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'D:\\OpenServer\\d...')
+#12 D:\OpenServer\domains\old-tms.local\index.php(18): YiiBase::createWebApplication('D:\\OpenServer\\d...')
+#13 {main}
+REQUEST_URI=/
+---
