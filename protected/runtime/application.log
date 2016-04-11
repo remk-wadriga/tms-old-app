@@ -2259,3 +2259,191 @@ Stack trace:
 #13 {main}
 REQUEST_URI=/
 ---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/74/567d82c5cc3ab_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/74/567d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/74/567d82c5cc3ab_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/160/567e2bebd64f4_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/160/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/160/567e2bebd64f4_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/17/55bf81e173eec_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/17/55bf...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/17/55bf81e173eec_m.jpg
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/28/5641cbfde68a6_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/28/5641...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/28/5641cbfde68a6_m.jpg
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/6/5639dd5e7f98f_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/6/5639d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6/5639dd5e7f98f_m.jpg
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/55/567d6a51d5b72_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/55/567d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/55/567d6a51d5b72_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/1/55956006bde05_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/1/55956...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1/55956006bde05_m.jpg
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/120/567dbaa0b2e79_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/120/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/120/567dbaa0b2e79_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/121/567dbb0ab5be0_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/121/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/121/567dbb0ab5be0_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:21:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/169/567e32b0808cd_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/169/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/169/567e32b0808cd_m.gif
+HTTP_REFERER=http://old-tms.local/
+---
+2016/04/11 16:22:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "theme/css/bootstrap.css.map".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('theme/css/boots...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/theme/css/bootstrap.css.map
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/74/567d82c5cc3ab_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/74/567d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/74/567d82c5cc3ab_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/160/567e2bebd64f4_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/160/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/160/567e2bebd64f4_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/17/55bf81e173eec_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/17/55bf...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/17/55bf81e173eec_m.jpg
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/6/5639dd5e7f98f_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/6/5639d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/6/5639dd5e7f98f_m.jpg
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/55/567d6a51d5b72_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/55/567d...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/55/567d6a51d5b72_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/1/55956006bde05_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/1/55956...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/1/55956006bde05_m.jpg
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/28/5641cbfde68a6_m.jpg".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/28/5641...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/28/5641cbfde68a6_m.jpg
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/121/567dbb0ab5be0_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/121/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/121/567dbb0ab5be0_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/120/567dbaa0b2e79_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/120/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/120/567dbaa0b2e79_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
+2016/04/11 16:29:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Неможливо обробити запит "uploads/169/567e32b0808cd_m.gif".' in D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\OpenServer\domains\old-tms.local\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/169/567...')
+#1 D:\OpenServer\domains\old-tms.local\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\OpenServer\domains\old-tms.local\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/uploads/169/567e32b0808cd_m.gif
+HTTP_REFERER=http://old-tms.local/index.php
+---
