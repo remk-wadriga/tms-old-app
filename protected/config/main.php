@@ -102,7 +102,7 @@ return array(
         ),
         'urlManager'=>array(
             'urlFormat'=>'path',
-            'showScriptName'=>false,
+            'showScriptName'=>true,
             'rules'=>array(
                 '/'=>'event/event/index',
                 'admin'=>'/admin/default/index',
