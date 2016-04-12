@@ -1,4 +1,7 @@
 <?php
+
+$db = require(__DIR__ . DIRECTORY_SEPARATOR . 'db_local.php');
+
 return array(
     'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
     'name'=>'My Console Application',
@@ -13,16 +16,7 @@ return array(
 //              ),
         // uncomment the following to use a MySQL database
 
-        'db'=>array(
-            'connectionString' => 'mysql:host=localhost;dbname=tms_db',
-            'emulatePrepare' => true,
-            'username' => 'tms_u',
-            'password' => 'ESXwudzg',
-            'charset' => 'utf8',
-            'tablePrefix'=>'tbl_',
-            'enableProfiling'=>true,
-            'enableParamLogging'=>true,
-        ),
+        'db' => $db,
 
         'log'=>array(
             'class'=>'CLogRouter',

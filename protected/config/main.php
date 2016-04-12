@@ -1,4 +1,7 @@
 <?php
+
+$db = require(__DIR__ . DIRECTORY_SEPARATOR . 'db_local.php');
+
 return array(
     'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
     'name'=>'ticket management system',
@@ -110,18 +113,7 @@ return array(
                 '/<module:\w+>/<controller:\w+>/<action:\w+>'=>'<module>/<controller>/<action>'
             ),
         ),
-        'db'=>array(
-            'connectionString' => 'mysql:host=localhost;dbname=tms_db',
-            'emulatePrepare' => true,
-            'username' => 'tms_u',
-            'password' => 'OlktHuifUyt4R',
-            'charset' => 'utf8',
-            'tablePrefix'=>'tbl_',
-            'enableProfiling'=>true,
-            'enableParamLogging'=>true,
-            'queryCacheID'=>'cache',
-            'schemaCachingDuration'=>60*60*24
-        ),
+        'db' => $db,
         'cache'=>array(
             'class'=>'system.caching.CFileCache'
         ),
